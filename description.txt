@@ -1,0 +1,18 @@
+{
+	"details": "This is a car evaluation model based on random forest and dataset avialable on https://archive.ics.uci.edu/ml/datasets/car+evaluation",
+	"version": "1.01",
+	"model": {
+	"categories": {
+			"buying-price": ["high", "low", "med", "vhigh"], 
+			"maintainace-price": ["high", "low", "med", "vhigh"], 
+			"no-of-doors": ["2", "3", "4", "5more"], 
+			"person-capacity": ["2", "4", "more"], 
+			"size-of-luggage-boot": ["big", "med", "small"], 
+			"safety": ["high", "low", "med"], 
+			"evaluation": ["acc", "good", "unacc", "vgood"]
+			},
+	"category_order": ["buying-price", "maintainace-price", "no-of-doors", "person-capacity",
+				"size-of-luggage-boot", "safety"],
+	"prediction": ["evaluation"]
+	}
+}

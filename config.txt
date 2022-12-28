@@ -1,0 +1,5 @@
+{
+	"description": "description.txt",
+	"model": "carClassifier.rf",
+	"resource_name": "/cars"
+}
