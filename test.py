@@ -1,7 +1,7 @@
 import requests
 import json
 
-server_uri = 'http://127.0.0.1:5000/cars'
+server_uri = 'https://nikeshdc.pythonanywhere.com/cars'
 
 
 ##        low	low	5more	4	big	low	unacc
